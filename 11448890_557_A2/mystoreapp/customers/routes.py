@@ -45,7 +45,7 @@ def customer_register():
         db.session.add(register)
         flash(f'Welcome {form.name.data} Thank you for registering', 'success')
         db.session.commit()
-        return redirect(url_for('login'))
+        return redirect(url_for('customerLogin'))
     return render_template('customer/register.html', form=form)
 
 

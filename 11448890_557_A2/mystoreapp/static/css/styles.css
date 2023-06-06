@@ -1,0 +1,44 @@
+.container_width{
+    max-width: 80%;
+}
+
+.zoom {
+    transition: transform .4s;
+  }
+  .zoom:hover {
+    transform: scale(1.1);
+  }
+
+  .imgDiv{
+    width: 350px;
+    height: 200px;
+  }
+
+  .text-shadowF{
+    text-shadow: 2px 2px 8px #292929;
+  }
+
+  .marginF{
+    margin-right: 60px;
+  }
+
+  .marginF2{
+    margin-right: 20px;
+  }
+
+.marginTop{
+  margin-top: 150px;
+}
+.marginTop2{
+  margin-top: 100px;
+}
+
+.justifyF{
+  justify-content: space-between;
+}
+
+.centerF {
+  margin: auto;
+  width: 100%;
+  padding: 10px;
+}

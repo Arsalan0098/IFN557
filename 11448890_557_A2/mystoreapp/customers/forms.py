@@ -6,6 +6,7 @@ from .model import Register
 
 
 
+
 class CustomerRegisterForm(FlaskForm):
     name = StringField('Name: ')
     username = StringField('Username: ', [validators.DataRequired()])
