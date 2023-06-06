@@ -1,0 +1,12 @@
+Hello, we have created an entire e-commerce website so there are some requirements that need to be installed in case the website works properly.
+**Please do not install Flask-Uploads because it has stopped updating, so we found a new one called Flask-reuploaded used for uploading images.***
+
+pip install Flask-Reuploaded
+python -m pip install email_validator
+pip install flask_wtf 
+pip install wtforms
+
+**the website is ready to connect to your payment gateway and create a pdf invoice using:***
+pip install stripe
+pip install pdfkit
+
